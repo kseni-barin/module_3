@@ -28,23 +28,3 @@ def calculate_structure_sum(*args):
 
 result = calculate_structure_sum(data_structure)
 print(result)
-
-
-'''
-    if isinstance(args, int):
-        sum += args
-        #return sum
-    elif isinstance(args, str):
-        sum_number = 0
-        for i in args:
-            if i.isdigit():
-                sum_number += int(i)
-        sum = sum + len(args) + sum_number
-        #return sum
-    elif args == ():
-        sum = sum + 0
-        #return sum
-    else:
-        #if isinstance(args, list) or isinstance(args, dict) or isinstance(args, tuple):
-            #return calculate_structure_sum(*args)
-'''
